@@ -2,7 +2,8 @@
 1) Build
 
 `docker build -t portfolio-dashboard .`
-3) Run
+
+2) Run
    
 `docker run --name portfolio -p 8000:8000 \
   -e JWT_SECRET_KEY='replace-this' \
