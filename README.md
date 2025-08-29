@@ -8,6 +8,5 @@
   portfolio-dashboard`
 
 👉 Open: http://localhost:8000
-Default user: admin / admin123
-Or register a new user from the login page.
+Default user: admin / admin123 Or register a new user from the login page.
 
