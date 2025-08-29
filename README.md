@@ -1,3 +1,6 @@
+## **📊 Portfolio Management Dashboard**
+A simple, full‑stack app for tracking investments, viewing performance, and managing transactions.
+
 **🚀 Quick Start (Docker)**
 1) Build
 
