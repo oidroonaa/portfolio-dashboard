@@ -1,0 +1,12 @@
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-dashboard
+    environment:
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-please-change}
+      - DATABASE_URL=sqlite:///app.db
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
